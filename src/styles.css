@@ -157,14 +157,7 @@ input[type="date"] {
   appearance: none;
   -webkit-appearance: none;
 }
-input[type="date"]::-webkit-date-and-time-value {
-  text-align: left;
-  min-height: 24px;
-}
 
-input[type="date"]:not(:focus):invalid {
-  color: #6b7280;
-}
 .checkbox-row {
   display: flex;
   align-items: flex-start;
