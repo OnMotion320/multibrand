@@ -130,7 +130,8 @@ label {
 label span { font-weight: 600; }
 
 input,
-textarea {
+textarea,
+select {
   width: 100%;
   min-width: 0;
   max-width: 100%;
@@ -139,9 +140,18 @@ textarea {
   padding: 12px 14px;
   background: #ffffff;
   font: inherit;
+  box-sizing: border-box;
 }
 
-input[type="date"] { min-width: 0; }
+input[type="date"] {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+}
 
 .checkbox-row {
   display: flex;
