@@ -169,10 +169,10 @@ export default function FormPage({ brand, onSaved }) {
           <input value={form.photographerName} onChange={(e) => update('photographerName', e.target.value)} />
         </label>
 
-        <label>
-          <span>Shoot date</span>
-          <input type="date" value={form.shootDate} onChange={(e) => update('shootDate', e.target.value)} />
-        </label>
+        <label className="field-span-2">
+  <span>Shoot date</span>
+  <input type="date" value={form.shootDate} onChange={(e) => update('shootDate', e.target.value)} />
+</label>
 
         <label className="field-span-2">
           <span>Shoot location</span>
@@ -199,9 +199,9 @@ export default function FormPage({ brand, onSaved }) {
             </label>
 
             <label className="field-span-2">
-              <span>Minor birth date</span>
-              <input type="date" value={form.minorDob} onChange={(e) => update('minorDob', e.target.value)} />
-            </label>
+  <span>Minor birth date</span>
+  <input type="date" value={form.minorDob} onChange={(e) => update('minorDob', e.target.value)} />
+</label>
 
             <label className="field-span-2">
               <span>Relationship</span>
