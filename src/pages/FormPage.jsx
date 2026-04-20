@@ -7,7 +7,7 @@ import { saveRecord } from '../lib/storage.js';
 const buildBlankForm = (brand) => ({
   brandKey: brand.key,
   brandCompanyName: brand.companyName,
-  brandLogoPath: brand.logoPath,
+  brandLogoPath: brand.logoLight,
   releaseType: 'model',
   photographerName: brand.photographerDefaultName,
   signerName: '',
@@ -135,7 +135,7 @@ export default function FormPage({ brand, onSaved }) {
         ...form,
         brandKey: brand.key,
         brandCompanyName: brand.companyName,
-        brandLogoPath: brand.logoPath
+        brandLogoPath: brand.logoLight
       };
       const { doc, filename } = await generatePdf(payload);
       const record = {

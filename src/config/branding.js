@@ -1,31 +1,34 @@
 export const brands = {
+  matthewmunzell: {
+    key: 'matthewmunzell',
+    appName: 'Release Form',
+    subtitle: 'Model, Minor & Property Releases',
+    companyName: 'Matthew Munzell Photography',
+    photographerDefaultName: 'Matthew Munzell',
+    logoLight: '/logo-mmp-light.png',
+    logoDark: '/logo-mmp-dark.png',
+    version: '3.0.0'
+  },
   expired: {
     key: 'expired',
-    appName: 'Release Form App',
-    subtitle: 'Commercial photography releases for iPad and desktop',
+    appName: 'Release Form',
+    subtitle: 'Model, Minor & Property Releases',
     companyName: 'Expired Film Photography',
     photographerDefaultName: 'Matthew Munzell',
-    logoPath: '/logo-expired.png',
+    logoLight: '/logo-expired.png',
+    logoDark: '/logo-expired.png',
     version: '3.0.0'
   },
   flightline: {
     key: 'flightline',
-    appName: 'Release Form App',
-    subtitle: 'Commercial photography releases for iPad and desktop',
+    appName: 'Release Form',
+    subtitle: 'Model, Minor & Property Releases',
     companyName: 'Flight Line Photo',
     photographerDefaultName: 'Matthew Munzell',
-    logoPath: '/logo-flightline.png',
+    logoLight: '/logo-flightline.png',
+    logoDark: '/logo-flightline.png',
     version: '3.0.0'
   },
-  matthewmunzell: {
-    key: 'matthewmunzell',
-    appName: 'Release Form App',
-    subtitle: 'Commercial photography releases for iPad and desktop',
-    companyName: 'Matthew Munzell Photography',
-    photographerDefaultName: 'Matthew Munzell',
-    logoPath: '/logo-matthewmunzell.png',
-    version: '3.0.0'
-  }
 };
 
-export const defaultBrandKey = 'expired';
+export const defaultBrandKey = 'matthewmunzell';
